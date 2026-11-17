@@ -1,32 +1,28 @@
-def outer_function(x):
-    def inner_function(y):
-        return x + y
+# def outer_function(x):
+#     def inner_function(y):
+#         return x + y
     
-    return inner_function
+#     return inner_function
 
 
-add5 = outer_function
-print(add5(10))
+# add5 = outer_function
+# print(add5(10))
 
-
-
-
-
-
-
-
-
-
+def greet(name = None):
+    def wrapper():
+        print("Before greeting...")
+        func()
+        print("After greeting...")
+    return wrapper
 
 
 
+@greet_decorator
+def say_hello():
+    print("Hello!")
 
 
-
-
-
-
-
+say_hello()  
 
 
 
