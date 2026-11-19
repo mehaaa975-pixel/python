@@ -1,4 +1,10 @@
-import math 
+from math import sqrt, pi
+import datetime 
 
-print(math.sqrt(16))  # Output: 4.0
-print(math.pi)
+print(sqrt(25))  # Output: 4.0
+print(pi)
+
+
+print(datetime.date.today())
+
+
