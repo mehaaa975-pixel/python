@@ -1,0 +1,5 @@
+Name: Meha
+Age: 17
+City: Kerala
+Course: Python Programming
+Hobby: Learning AI
